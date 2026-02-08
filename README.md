@@ -1,21 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vita Romana - Interactive Ancient Rome Experience</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=Lato:wght@300;400;700&display=swap');
-        
-        body { margin: 0; overflow: hidden; background: #000; font-family: 'Lato', sans-serif; }
-        
-        .roman-font { font-family: 'Cinzel', serif; }
-        
-        #game-container { position: relative; width: 100vw; height: 100vh; }
-        
-        /* UI Overlay Styles */
         .ui-layer { position: absolute; pointer-events: none; width: 100%; height: 100%; }
         .interactive { pointer-events: auto; }
         
